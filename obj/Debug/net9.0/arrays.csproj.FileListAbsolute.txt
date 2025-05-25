@@ -12,3 +12,4 @@ C:\Users\troubleman96\Desktop\c#\arrays\obj\Debug\net9.0\refint\arrays.dll
 C:\Users\troubleman96\Desktop\c#\arrays\obj\Debug\net9.0\arrays.pdb
 C:\Users\troubleman96\Desktop\c#\arrays\obj\Debug\net9.0\arrays.genruntimeconfig.cache
 C:\Users\troubleman96\Desktop\c#\arrays\obj\Debug\net9.0\ref\arrays.dll
+C:\Users\troubleman96\Desktop\c#\arrays\obj\Debug\net9.0\arrays.sourcelink.json

@@ -37,22 +37,20 @@ namespace Arrays
             // int[] numbers = { 4, 1, 5, 2, 3 };
             numbers[1] = 25; // changes 1 to 25
             
-            System.Console.WriteLine();
 
-           // int[] numbers = { 4, 1, 5, 2, 3 };
+            int[] nums = { 4, 1, 5, 2, 3 };
 
             // Length
-            Console.WriteLine("The length of arrsy is: " + numbers.Length);  // 5
-            System.Console.WriteLine();
+            Console.WriteLine(nums.Length);  // 5
 
             // Sort array
-            Array.Sort(numbers);  // nums becomes {1, 2, 3, 4, 5}
+            Array.Sort(nums);  // nums becomes {1, 2, 3, 4, 5}
 
             // Reverse
-            Array.Reverse(numbers);  // nums becomes {5, 4, 3, 2, 1}
+            Array.Reverse(nums);  // nums becomes {5, 4, 3, 2, 1}
 
             // Index of
-            int index = Array.IndexOf(numbers, 5);
+            int index = Array.IndexOf(nums, 5);
 
 
 

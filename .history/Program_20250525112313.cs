@@ -37,7 +37,6 @@ namespace Arrays
             // int[] numbers = { 4, 1, 5, 2, 3 };
             numbers[1] = 25; // changes 1 to 25
             
-            System.Console.WriteLine();
 
            // int[] numbers = { 4, 1, 5, 2, 3 };
 

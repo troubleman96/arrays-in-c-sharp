@@ -10,7 +10,7 @@ namespace Arrays
             // int [] numbers = new int[5];
             int[] numbers = { 4, 1, 5, 2, 3 };
 
-            string[] names = { "John", "Jane", "Doe", "Smith", "Alice" };
+            string[] names = {"John", "Jane", "Doe", "Smith", "Alice"};
 
             // numbers[0] = 1;
             // numbers[1] = 2;
@@ -20,41 +20,19 @@ namespace Arrays
 
             System.Console.WriteLine(numbers[4]);
             System.Console.WriteLine();
-
+            
             // Accessing & Looping Through Arrays
-            for (int i = 0; i < numbers.Length; i++)
+            for(int i = 0; i < numbers.Length; i++)
             {
                 System.Console.WriteLine(numbers[i]);
             }
             System.Console.WriteLine();
-
+            
             foreach (int num in numbers)
             {
                 System.Console.WriteLine(num);
             }
-
-            // updating an element in an array
-            // int[] numbers = { 4, 1, 5, 2, 3 };
-            numbers[1] = 25; // changes 1 to 25
             
-            System.Console.WriteLine();
-
-           // int[] numbers = { 4, 1, 5, 2, 3 };
-
-            // Length
-            Console.WriteLine("The length of arrsy is: " + numbers.Length);  // 5
-            System.Console.WriteLine();
-
-            // Sort array
-            Array.Sort(numbers);  // nums becomes {1, 2, 3, 4, 5}
-
-            // Reverse
-            Array.Reverse(numbers);  // nums becomes {5, 4, 3, 2, 1}
-
-            // Index of
-            int index = Array.IndexOf(numbers, 5);
-
-
 
             
             
